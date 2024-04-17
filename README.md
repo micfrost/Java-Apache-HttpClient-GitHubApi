@@ -1,39 +1,26 @@
-# Java Apache HttpClient Weather API
+# GitHub Trending Repositories Viewer
 
-This project demonstrates the use of Apache HttpClient to perform HTTP operations (`GET`, `POST`, `PUT`, and `DELETE`). It interacts with a fake online REST API, JSONPlaceholder, to simulate creating, retrieving, updating, and deleting posts. Additionally, it includes an example of fetching weather data from the OpenWeatherMap API.
+This Java application uses Apache HttpClient to make HTTP GET requests to the GitHub API and fetches trending repositories filtered by programming language. The application parses the JSON response and displays details about each repository including its name, description, stars, forks, watchers count, and URL.
 
+## Features
 
-## Features 
-
-- Retrieve weather data for a specific ZIP code.
-- Parse JSON response to extract and display weather details.
-- Configurable API key through a properties file.
+- **Language Specific Trends**: Fetches trending repositories based on the specified programming language.
+- **Structured Output**: Displays information in a readable and structured format.
+- **Error Handling**: Properly handles network errors and incorrect inputs.
 
 ## Prerequisites
 
-- Java 11 or higher
-- Maven
+Before running this application, make sure you have the following installed:
+- Java JDK 11 or higher
+- Maven 3.6.0 or higher
 
 ## Setup
 
-1. Clone this repository to your local machine.
-2. Obtain an API key from [OpenWeatherMap](https://openweathermap.org/api).
-3. Create a `config.properties` file in `src/main/resources/` with your API key:
+Clone the repository to your local machine.
 
-### Properties
-api_key=YOUR_API_KEY_HERE
-Replace YOUR_API_KEY_HERE with the actual API key you obtained from OpenWeatherMap.
-
-### Libraries Used
-Apache HttpClient 4.5.14
-JSON.org
-Ensure you have the necessary dependencies in your pom.xml file to include these libraries.
+## Usage
 
 ## Author
 Created by Michal Frost
 
-GET Request
-![Screenshot from 2024-04-17 11-27-15.png](src%2Fmain%2Fresources%2Fimages%2FScreenshot%20from%202024-04-17%2011-27-15.png)
-
-PUT, POST, DELETE Request
-![Screenshot from 2024-04-17 12-00-47.png](src%2Fmain%2Fresources%2Fimages%2FScreenshot%20from%202024-04-17%2012-00-47.png)
+![Screenshot from 2024-04-17 21-19-23.png](src%2Fmain%2Fresources%2Fimages%2FScreenshot%20from%202024-04-17%2021-19-23.png)
