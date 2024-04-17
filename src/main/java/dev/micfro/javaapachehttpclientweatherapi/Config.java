@@ -1,9 +1,9 @@
-package dev.micfro.javahttpclientweatherapi;
+package dev.micfro.javaapachehttpclientweatherapi;
 
-import java.io.IOException;
-import java.util.Properties;
-import java.io.InputStream;
 import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
 
 public class Config {
     public static String getApiKey() {

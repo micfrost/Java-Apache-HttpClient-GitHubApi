@@ -1,30 +1,35 @@
-# Java HTTP Client Weather API
+# Java Apache HttpClient Weather API
 
-This Java application demonstrates how to use the Java HTTP Client to retrieve weather data for a specific ZIP code or city from the OpenWeatherMap API. The program outputs the current weather details such as temperature, humidity, wind speed, and a brief description of the weather.
+This project demonstrates how to use Apache HttpClient to retrieve weather forecast data from the OpenWeatherMap API in a Java application.
 
-## Requirements
+## Features
 
-- Java 11 or later
-- Maven (for dependency management and running the application)
+- Retrieve weather data for a specific ZIP code.
+- Parse JSON response to extract and display weather details.
+- Configurable API key through a properties file.
+
+## Prerequisites
+
+- Java 11 or higher
+- Maven
 
 ## Setup
 
-### Get an API Key
+1. Clone this repository to your local machine.
+2. Obtain an API key from [OpenWeatherMap](https://openweathermap.org/api).
+3. Create a `config.properties` file in `src/main/resources/` with your API key:
 
-Before you run the application, you will need an API key from OpenWeatherMap:
+### Properties
+api_key=YOUR_API_KEY_HERE
+Replace YOUR_API_KEY_HERE with the actual API key you obtained from OpenWeatherMap.
 
-1. Go to [OpenWeatherMap](https://openweathermap.org/api) and sign up.
-2. Navigate to the API keys section and generate a new API key.
-3. Replace the `apiKey` variable in the `weatherAPI` class with your new API key.
-
-### Building the Application
-
-Clone this repository
-
-### Output
-The application will print the current weather conditions including temperature, feels-like temperature, humidity, wind speed, and a description of the weather.
+### Libraries Used
+Apache HttpClient 4.5.14
+JSON.org
+Ensure you have the necessary dependencies in your pom.xml file to include these libraries.
 
 ## Author
 Created by Michal Frost
 
-![Screenshot from 2024-04-17 10-41-21.png](src%2Fmain%2Fresources%2Fimages%2FScreenshot%20from%202024-04-17%2010-41-21.png)
+
+![Screenshot from 2024-04-17 11-27-15.png](src%2Fmain%2Fresources%2Fimages%2FScreenshot%20from%202024-04-17%2011-27-15.png)
