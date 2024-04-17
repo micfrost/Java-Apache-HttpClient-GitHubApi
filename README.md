@@ -1,6 +1,7 @@
 # Java Apache HttpClient Weather API
 
-This project demonstrates how to use Apache HttpClient to retrieve weather forecast data from the OpenWeatherMap API in a Java application.
+This project demonstrates the use of Apache HttpClient to perform HTTP operations (`GET`, `POST`, `PUT`, and `DELETE`). It interacts with a fake online REST API, JSONPlaceholder, to simulate creating, retrieving, updating, and deleting posts. Additionally, it includes an example of fetching weather data from the OpenWeatherMap API.
+
 
 ## Features
 
