@@ -32,5 +32,8 @@ Ensure you have the necessary dependencies in your pom.xml file to include these
 ## Author
 Created by Michal Frost
 
-
+GET Request
 ![Screenshot from 2024-04-17 11-27-15.png](src%2Fmain%2Fresources%2Fimages%2FScreenshot%20from%202024-04-17%2011-27-15.png)
+
+PUT, POST, DELETE Request
+![Screenshot from 2024-04-17 12-00-47.png](src%2Fmain%2Fresources%2Fimages%2FScreenshot%20from%202024-04-17%2012-00-47.png)
